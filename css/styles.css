@@ -8,7 +8,17 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #FFCCE1;
+
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
@@ -18,7 +28,7 @@ body {
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #fff0e0;
 }
 
 .resume-aside {
@@ -49,3 +59,12 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.newfont {
+	font-family: 'Comic Neue', cursive;
+	font-family: 'Comic Neue', cursive;
+	color: hotpink;
+}
+ .color {
+ 	background-color: pink !important;
+ }
